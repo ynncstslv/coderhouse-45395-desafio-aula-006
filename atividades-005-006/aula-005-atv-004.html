@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Forms</title>
+	</head>
+	<body>
+		<form action="">
+			<fieldset>
+				<legend>Informações Pessoais</legend>
+				<label for="genero">Gênero:</label>
+				<br />
+				<input type="radio" name="genero" value="masculino" />Masculino
+				<input type="radio" name="genero" value="feminino" />Feminino
+				<input type="radio" name="genero" value="outro" />Outro <br /><br />
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome" />
+				<br />
+				<label for="sobrenome">Sobrenome:</label>
+				<input type="text" name="sobrenome" id="sobrenome" />
+				<br /><br />
+				<label for="tamanho">Tamanho:</label>
+				<select name="tamanho" id="tamanho">
+					<option value="p">Pequeno</option>
+					<option value="m">Médio</option>
+					<option value="g">Grande</option>
+				</select>
+				<br /><br />
+				<button type="submit">Enviar</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
